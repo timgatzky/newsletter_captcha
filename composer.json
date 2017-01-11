@@ -1,0 +1,42 @@
+{
+	"name":"timgatzky/newsletter_captcha",
+	"description":"Contao 3 extension to add captcha support for newsletter forms",
+	"keywords":["contao","newsletter","captchs"],
+	"type":"contao-module",
+	"homepage":"https://github.com/timgatzky/newsletter_captcha",
+	"authors":
+	[
+		{
+			"name":"Tim Gatzky",
+			"homepage":"http://www.tim-gatzky.de",
+			"role":"Interaction-Designer,Developer"
+		},
+	],
+	"support":
+	{
+		"issues":"https://github.com/timgatzky/newsletter_captcha/issues",
+		"source":"https://github.com/timgatzky/newsletter_captcha"
+	},
+	"require":
+	{
+		"php":">=5.4",
+		"contao/core":">=3.5",
+		"contao-community-alliance/composer-installer":"*",
+	},
+	"autoload":
+	{
+	},
+	"replace":
+	{
+	},
+	"extra":
+	{
+		"contao":
+		{
+			"sources":
+			{
+				"":"system/modules/newsletter_captcha"
+			}
+		}
+	}
+}
