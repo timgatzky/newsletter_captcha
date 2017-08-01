@@ -21,13 +21,7 @@
 	{
 		"php":">=5.4",
 		"contao/core":">=3.5",
-		"contao-community-alliance/composer-installer":"*",
-	},
-	"autoload":
-	{
-	},
-	"replace":
-	{
+		"contao-community-alliance/composer-installer":"*"
 	},
 	"extra":
 	{
@@ -35,7 +29,7 @@
 		{
 			"sources":
 			{
-				"":"system/modules/newsletter_captcha"
+				"system/modules/newsletter_captcha":"system/modules/newsletter_captcha"
 			}
 		}
 	}
